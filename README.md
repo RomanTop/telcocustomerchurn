@@ -21,3 +21,9 @@ The individual pairplot ‘Tenure / Monthly charges’
 Just building tenure distribution plot without dividing customers on non-churned and churned can already tell some facts about customers’ behavior and company itself:
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/tenure_distrib.png)
+
+We see two distinct spikes at the end of the charts. The spike on the left tells that there is a relatively big number of new customers 0-4 months meaning that company has a good ability to attract new customers. It looks like that marketing and sales departments of the company are working well. However, a big number of those new customers will leave the company during next months. In an ideal situation when there is no churn, tenure distribution chart should have a spike only at its right end, meaning that over the time number of customers is building up at the very end of the analyzed period. In our situation the spike at the right end tells that there are always customers who keep their loyalty since company was capable to satisfy them with the service all this time. 
+
+Customer tenure Distribution Churn vs No Churn is showing it even clearer:
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/MonthlyCharges_distrib_churn.png)
