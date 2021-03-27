@@ -17,3 +17,6 @@ Building a pairplots showing distribution of numeric variables for churned and n
 The individual pairplot ‘Tenure / Monthly charges’
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/MonthlyCharges_tenure_churn.png)
+
+Just building tenure distribution plot without dividing customers on non-churned and churned can already tell some facts about customers’ behavior and company itself:
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/tenure_distrib.png)
