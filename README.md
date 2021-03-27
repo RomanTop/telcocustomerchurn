@@ -15,4 +15,5 @@ I started to analyze data with calculations of the churn rate.  The dataset cont
 Building a pairplots showing distribution of numeric variables for churned and non-churned customers revealed a tendency of the customers with higher monthly charges are more likely to leave the company comparing to the ones with lower monthly charges.
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Numvar_distribution_plots.png)
 The individual pairplot ‘Tenure / Monthly charges’
+
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/MonthlyCharges_tenure_churn.png)
