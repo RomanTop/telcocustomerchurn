@@ -26,7 +26,7 @@ We see two distinct spikes at the end of the charts. The spike on the left tells
 
 Customer tenure Distribution Churn vs No Churn is showing it even clearer:
 
-![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/MonthlyCharges_distrib_churn.png)
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/tenure_distrib_churn.png)
 
 Number of churned customers is significantly bigger than no churn for the first 20 months, but the peak of churn is at 0–4-month period and then number of churned customers decreasing over the time. That means that the company has no time for analyzing customers’ behavior and should act right away to retain clients because otherwise most of them will leave even after the first month. So, when a customer joins the company, we should be able to assess his/her risk of churn immediately. And we hope that the set of parameters (variables) that describe each customer will help us to identify patterns which lead customers to churn.
 
