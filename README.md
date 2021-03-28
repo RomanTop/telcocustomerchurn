@@ -44,3 +44,12 @@ The lowest number of churn customer is in the low monthly charges group, the hig
 Demographic charts are showing no dependency on gender between churn and no churn groups of customers. However, we can see that customers who do not have partners and no dependents have as twice as big probability to churn comparing to those who have partners and dependents. Another interesting fact is showing the chart dividing customers by seniority parameter. Even though the percentage of senior customers is relatively small only 16.3% a little bit less than a half of them are churned customers. So, company should pay closer attention to single customers with no kids or any other dependents and to senior customers. There must be something about these groups of customers that puts them into higher risk to leave the company.
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Demographicpng_Page1.png)
+
+### Services
+Looking at the group of charts representing churned and no churned customers with regards to services we can see the following picture: 
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Servicespng_Page1.png)
+
+There is no dependency on whether customer has or does not phone service and multiple lines. The number of churned customers in those groups is roughly ¼ which is the overall churn rate we figured out earlier.
+
+The charts showing groups of customers with regards to types of internet service is revealing the fact that the customers who have fiber optic internet service have way higher churn rate ~40% comparing to DSL internet service – 18% and no internet service – 7%. So, the customers with fiber optic internet are going to be another subgroup that should be in company’s attention focus. The second chart showing distribution of monthly charges with regards to type of internet revealing that fiber optic is the service that associates with high monthly charges only, while DSL internet covers broad range of charges from the lowest to mid-high charges. ‘No internet service’ group associates only with the lowest charges.
