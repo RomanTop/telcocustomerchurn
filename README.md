@@ -37,3 +37,8 @@ Let us go back to the parameter we already touched Monthly Charges and take a cl
 Looking at this chart we can visually combine customers into three groups. The low charges - 20-30$ per month, moderate charges – 40-60$ per month and high charges – 70-110$ per month. With regards to churn vs no churn monthly charges distribution is as follows:
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/MonthlyCharges_distrib_churn.png)
+
+The lowest number of churn customer is in the low monthly charges group, the highest number of churn customer is in the high monthly charges group. The moderate monthly charges group has roughly equal number of churned and no churned customers. So, a new customer that chose the plan with high monthly charges should fall into company’s highest attention priority. Because we can see that the high monthly charge group is the biggest group thus brining the company most of its earnings, but it is also the group with highest risk of customers to churn which means the company is losing good chunk of its revenue.
+
+### Demographic
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Demographicpng_Page1.png)
