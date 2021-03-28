@@ -60,3 +60,7 @@ The group of charts dividing customers depending on additional services they cho
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Additional%20Servicespng_Page1.png)
 
 It is clearly seen that customers who chose not to have additional services have a drastically higher churn rate comparing to those ones who have them - 40% vs 15-20%. Here is another group of customers for the company to work with. The situation itself might look counterintuitive at first glance. Customers with additional services apparently have higher monthly charges but we already figured out that the customers with high monthly charges have higher churn rate. Explanation could be that the difference in monthly charges between customers with additional services and without them is not that significant but customers without additional services still fall into high monthly charges group. Lack of additional quite useful services like tech support, online security etc. cause inconvenience and issues for customers and make them think that service they have from the company not worth money they pay.
+
+The distribution of monthly charges of churned customers without additional services chart is showing that customers from this group are in each subgroup in terms of monthly charges we defined earlier – low, moderate and high:
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/MonthlyCharges_no_additional_services_distrib.png)
