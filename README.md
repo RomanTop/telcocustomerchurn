@@ -89,6 +89,7 @@ Another subgroup of customers that requires closer attention is those who receiv
 The churn rate of this group is almost triple as big as customers receiving their bills in paper.
 
 Let us look to the last parameter – payment method:
+
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/PaymentMethod_churn.png)
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/MonthlyCharges_PaymentMethod_churn.png)
