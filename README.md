@@ -89,6 +89,8 @@ Another subgroup of customers that requires closer attention is those who receiv
 The churn rate of this group is almost triple as big as customers receiving their bills in paper.
 
 Let us look to the last parameter – payment method:
-![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Payment%20methodpng_Page1.png)
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/PaymentMethod_churn.png)
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/MonthlyCharges_PaymentMethod_churn.png)
 
 ‘Electronic check’ group has 4 times bigger churn rate comparing to other groups. The second chart is showing that electronic check is not associated with high monthly charges by itself since we can see it covers all range from the lowest to the highest charges. Nevertheless, we do see a ’bubble’ at high monthly charges area. That likely means that customers who chose electronic check method of payment also tend to have services associated with higher charges like Fiber optic internet service. Anyway, what the issues are with ‘Electronic check’ method of payment is a subject of thorough investigation.
