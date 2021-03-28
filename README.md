@@ -85,3 +85,5 @@ We see that most of churned customers 23.5% (26.6% overall churn rate) have a mo
 Another subgroup of customers that requires closer attention is those who receive paperless billing:
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/PaperlessBilling_churn.png)
+
+The churn rate of this group is almost triple as big as customers receiving their bills in paper.
