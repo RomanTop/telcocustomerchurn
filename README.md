@@ -68,3 +68,11 @@ The distribution of monthly charges of churned customers without additional serv
 Most of this type of customers is in the high monthly charges group. Why customers who do not have additional services are still paying high monthly charges? Obviously there must be other parameters that effect monthly payments and not represented in our dataset. For example, speed of Internet. Choosing higher Internet speed and no additional services may not be that beneficial.
 The only additional services that do not affect the churn rate are Streaming TV and Streaming movies. Regardless of them the churn rates both subgroups are roughly the same:
 
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Streamingpng_Page1.png)
+
+The other thing about all charts showing churn of customers with regards to additional services are customers with no internet service. Only 1.6% of all customers are churned customers who have no internet service. It cannot be compared to churn rates of any other subgroup of customers who have internet service. It leads to conclusion that the quality of internet service overall is not satisfying enough.
+
+### Type of contract
+The charts showing churned vs no churned customers depending on type of contract:
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Contractpng_Page1.png)
