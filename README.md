@@ -53,3 +53,5 @@ Looking at the group of charts representing churned and no churned customers wit
 There is no dependency on whether customer has or does not phone service and multiple lines. The number of churned customers in those groups is roughly ¼ which is the overall churn rate we figured out earlier.
 
 The charts showing groups of customers with regards to types of internet service is revealing the fact that the customers who have fiber optic internet service have way higher churn rate ~40% comparing to DSL internet service – 18% and no internet service – 7%. So, the customers with fiber optic internet are going to be another subgroup that should be in company’s attention focus. The second chart showing distribution of monthly charges with regards to type of internet revealing that fiber optic is the service that associates with high monthly charges only, while DSL internet covers broad range of charges from the lowest to mid-high charges. ‘No internet service’ group associates only with the lowest charges.
+
+### Additional Services
