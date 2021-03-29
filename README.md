@@ -116,7 +116,11 @@ Let us go back to demographic groups. Earlier it was figured out that Senior cus
 #### Streaming Services
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20Streaming%20Servicespng_Page1.png)
 
+#### Type of Contract
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior_Contract.png)
+
 #### Billing and Payment method
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20Billing%20and%20Payment%20methodpng_Page1.png)
 
-
+We see all the same trends as we saw earlier regardless demographic groups but now we can see that some subgroups of senior customers like ‘Month-to-month contract’, ‘Electronic check’ and some others have churn rate over 50% which is twice higher than overall churn rate. It explains high churn rate in Senior customers demographic group in total.
