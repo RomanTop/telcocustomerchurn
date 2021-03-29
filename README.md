@@ -102,3 +102,7 @@ Let us go back to demographic groups. Earlier it was figured out that Senior cus
 #### Tenure and monthly charges
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20tenure%20and%20chargespng_Page1.png)
+
+#### Services
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior_InternetService.png)
