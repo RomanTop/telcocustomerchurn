@@ -108,3 +108,7 @@ Let us go back to demographic groups. Earlier it was figured out that Senior cus
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior_InternetService.png)
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20servicespng_Page1.png)
+
+#### Additional Services
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20Additional%20Servicespng_Page1.png)
