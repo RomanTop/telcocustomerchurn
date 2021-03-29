@@ -161,3 +161,19 @@ As it seen they are close to each other, however Logistic Regression provided sl
 The plot of the derived feature importances identified by Random Forest Classifier is just another confirmation of already known facts:
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Feature_Importances.png)
+
+Hyperparameters tuning for Logistic Regression using GridSearch method could only increase cross-validation ROC AUC score just a little bit but there was no improvement on the test set, so I left this algorithm with default parameters.
+
+In attempt to improve model performance I tried to combine two different models that provided the best results so far – Logistic Regression and Stochastic Gradient Descent. As a result, I got a very slight improvement of ROC AUC score up to 0.8604 so this ensembled model was picked to be used for production.
+
+To visualize model performance, I built ROC and Precision-Recall graphs:
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/ROC%20Graph.png)
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Precision-Recall%20Graph.png)
+
+Since ROC AUC score of the models differs at fourth digit after decimal point it makes them almost undistinguishable on ROC graph. At the same time models have the same Precision-Recall score which lump their curves together making basically one line one the graph.
+
+Using pickle module, I saved model to a file to store it for future usage when new unlabeled data come.
+
+The recommendations for developing retain program please see in a separate file
