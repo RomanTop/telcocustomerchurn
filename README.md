@@ -140,3 +140,24 @@ Another technique that can improve a model performance in case of imbalanced dat
 1.	Upsample. Randomly resampled the minority class creates new data.
 2.	SMOTE. Creates new synthetic data by using nearest neighbors of the minority class.
 3.	Downsample. Randomly removes observations of majority class.
+
+In order to choose resampling technique, I trained Logistic Regression to each of them and applied 5-Fold cross validation to assess model performance. I got the next results:
+*	The best ROC_AUC Score for Original training set: 0.840745950411631
+*	The best ROC_AUC Score for Upsampled training set: 0.8423111716044671
+*	The best ROC_AUC Score for SMOTE training set: 0.9281181977074635
+*	The best ROC_AUC Score for Downsampled training set: 0.8477800472030514
+
+SMOTE resample technique provided the best result during 5-Fold cross-validation. So, this technique I used to train models.
+
+I trained and tested five ML algorithms that are known to work well for binary classification with the following results of chosen metric:
+1.	Logistic Regression ROC_AUC score: 0.8602
+2.	Random Forest Classifier ROC_AUC score: 0.8304
+3.	Stochastic Gradient Descent (SGD) ROC_AUC score: 0.8601
+4.	Gradient Boosting Classifier ROC_AUC score: 0.8574
+5.	AdaBoost Classifier ROC_AUC score: 0.8581
+
+As it seen they are close to each other, however Logistic Regression provided slightly better results than other algorithms.
+
+The plot of the derived feature importances identified by Random Forest Classifier is just another confirmation of already known facts:
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Feature_Importances.png)
