@@ -129,3 +129,14 @@ We see all the same trends as we saw earlier regardless demographic groups but n
 Preparing data for Machine Learning (ML) I started with removing ‘Customer ID’ column as a unique customer identifier which will not help to predict customer churn, converting predictor variable ‘Churn’ into a binary numeric variable and getting dummies for all categorical variables. After that I also built a chart showing correlation of each variable with a target variable ‘Churn’:
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Correlation_churn.png)
+
+As we can see on this graph all positively correlated with ‘Churn’ variables are those ones we figured out during Exploratory Data Analysis. These are month-to-month contract, fiber optic internet, no additional services, electronic check, monthly charges, paperless billing, senior citizens, no partners and no dependents.
+
+Due to numerical variables which are ‘tenure’, ‘Monthly charges’ and ‘Total charges’ have different scales and for better ML algorithms performance they should be either standardized or normalized. I chose standardization since it is less affected by outliers.
+
+To assess a model performance there are different metrics can be used. We are dealing with imbalanced data which means one out of two possible outcomes is overweigh the other. In our case negative outcomes, in other words ‘Churn’=0, which means not churned customers are 73.5%. Choosing Accuracy as a metric in this case cannot be reliable since having a model that predicts all '0' will automatically get 73.5% accuracy but it is no use at all. There is also another aspect to take into consideration. A trade-off between False Positive (FP) and False Negative (FN) predicted results. In our case FP means number of customers identified by a model as going to churn customers but they are actually not, and FN means number of customers identified by a model as not going to churn however they actually are. We would like to optimize FN number since we are striving to target all potentially churn customers with our retain program, but FN is a number of customers that will not be covered by this program. In cases like this using the area under ROC curve as a metric is recommended.
+
+Another technique that can improve a model performance in case of imbalanced data is applying different resample methods. I applied the next resample methods:
+1.	Upsample. Randomly resampled the minority class creates new data.
+2.	SMOTE. Creates new synthetic data by using nearest neighbors of the minority class.
+3.	Downsample. Randomly removes observations of majority class.
