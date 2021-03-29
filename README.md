@@ -98,3 +98,7 @@ Let us look to the last parameter – payment method:
 
 ### Senior citizens
 Let us go back to demographic groups. Earlier it was figured out that Senior customers is a group with churn rate ~40% which is 1.5 times higher than the overall churn rate. Let us select senior customers only from the dataset and look at all parameters:
+
+#### Tenure and monthly charges
+
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20tenure%20and%20chargespng_Page1.png)
