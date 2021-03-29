@@ -115,3 +115,8 @@ Let us go back to demographic groups. Earlier it was figured out that Senior cus
 
 #### Streaming Services
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20Streaming%20Servicespng_Page1.png)
+
+#### Billing and Payment method
+![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20Billing%20and%20Payment%20methodpng_Page1.png)
+
+
