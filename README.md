@@ -95,24 +95,11 @@ Let us look to the last parameter – payment method:
 ‘Electronic check’ group has 4 times bigger churn rate comparing to other groups. The second chart is showing that electronic check is not associated with high monthly charges by itself since we can see it covers all range from the lowest to the highest charges. Nevertheless, we do see a ’bubble’ at high monthly charges area. That likely means that customers who chose electronic check method of payment also tend to have services associated with higher charges like Fiber optic internet service. Anyway, what the issues are with ‘Electronic check’ method of payment is a subject of thorough investigation.
 
 ### Senior citizens
-Let us go back to demographic groups. Earlier it was figured out that Senior customers is a group with churn rate ~40% which is 1.5 times higher than the overall churn rate. Let us select senior customers only from the dataset and look at all parameters:
-
-#### Tenure and monthly charges
-
-![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20tenure%20and%20chargespng_Page1.png)
+I went back to demographic groups. Earlier it was figured out that Senior customers is a group with churn rate ~40% which is 1.5 times higher than the overall churn rate. I selected senior customers only from the dataset and looked at all parameters. It was all the same trends as I saw earlier regardless demographic groups but now some subgroups of senior customers like ‘Month-to-month contract’, ‘Electronic check’ and some others have churn rate over 50% which is twice higher than overall churn rate. It explains high churn rate in Senior customers demographic group in total.
 
 #### Services
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior_InternetService.png)
-
-![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20servicespng_Page1.png)
-
-#### Additional Services
-
-![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20Additional%20Servicespng_Page1.png)
-
-#### Streaming Services
-![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20Streaming%20Servicespng_Page1.png)
 
 #### Type of Contract
 
@@ -120,8 +107,6 @@ Let us go back to demographic groups. Earlier it was figured out that Senior cus
 
 #### Billing and Payment method
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Senior%20Billing%20and%20Payment%20methodpng_Page1.png)
-
-We see all the same trends as we saw earlier regardless demographic groups but now we can see that some subgroups of senior customers like ‘Month-to-month contract’, ‘Electronic check’ and some others have churn rate over 50% which is twice higher than overall churn rate. It explains high churn rate in Senior customers demographic group in total.
 
 ## Modeling
 Preparing data for Machine Learning (ML) I started with removing ‘Customer ID’ column as a unique customer identifier which will not help to predict customer churn, converting predictor variable ‘Churn’ into a binary numeric variable and getting dummies for all categorical variables. After that I also built a chart showing correlation of each variable with a target variable ‘Churn’:
