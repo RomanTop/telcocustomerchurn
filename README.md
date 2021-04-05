@@ -159,4 +159,4 @@ Since ROC AUC score of the models differs at fourth digit after decimal point it
 
 Using pickle module, I saved model to a file to store it for future usage when new unlabeled data come.
 
-The recommendations for developing retain program please see in the separate file [Retain Program. Recommendations.](https://github.com/RomanTop/telcocustomerchurn/blob/main/Retain%20Program.%20Recommendations.docx)
+The recommendations for developing retain program please see in the separate file [Retain Program. Recommendations.](https://github.com/RomanTop/telcocustomerchurn/blob/main/Retention%20Program.%20Recommendations.md)
