@@ -4,7 +4,7 @@ The goal of the project is not only to build a predictive model to identify cust
 
 Although the dataset contains 20 variables describing each customer there is still some information that is not given but can be helpful to develop specific focused retain program. For example, we do not know how many plans exist and what are monthly charges for each of them, what technologies are used for fiber optic Internet service – PON, FTTH, FTTN, etc. Depending on these factors approaches to retain customers may vary. However, it is still possible to provide fairly detailed recommendations to some of company’s departments based on which focused retention programs can be developed.
 
-Recommendations themselves are based on the insights revealed during Exploratory Data Analysis. The correlation plot is a good summarising illustration of what factors (variables) are associated with churn customers:
+Recommendations themselves are based on the insights revealed during [Exploratory Data Analysis](https://github.com/RomanTop/telcocustomerchurn/blob/main/README.md). The correlation plot is a good summarising illustration of what factors (variables) are associated with churn customers:
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Correlation_churn.png)
 
