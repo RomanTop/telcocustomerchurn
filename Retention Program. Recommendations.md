@@ -21,14 +21,14 @@ Since fiber optic provides the fastest internet connection among other technolog
 3.	Down time
 ### Recommendations for the Technical Department:
 1.	Check if the speed of internet connection for each customer corresponds with the one specified on their contract. If it does not, then conduct investigation to find out reasons. Possible steps to apply:
-1.1.	Check headend active equipment settings. Consider upgrading equipment if needed.
-1.2.	Check the signal light levels at a customer’s side. If they below the threshold, test the line to get OTDR (Optical time domain reflectometer) trace to find out insertion loss (IL) along the line. Consider re-splicing fibre at the splice points along the line, where IL is above 0.3 dBm.
-1.3.	Get a report about over-congested fibre enclosures along the line where micro bends cause high IL. Consider fixing micro bends of affected fibres or even upgrading enclosure itself if possible.
-1.4.	Clean all optical connectors at the headend and a customer side.
+    1.	Check headend active equipment settings. Consider upgrading equipment if needed.
+    2.	Check the signal light levels at a customer’s side. If they below the threshold, test the line to get OTDR (Optical time domain reflectometer) trace to find out insertion loss (IL) along the line. Consider re-splicing fibre at the splice points along the line, where IL is above 0.3 dBm.
+    3.	Get a report about over-congested fibre enclosures along the line where micro bends cause high IL. Consider fixing micro bends of affected fibres or even upgrading enclosure itself if possible.
+    4.	Clean all optical connectors at the headend and a customer side.
 2.	Get a report about average number of nonintentional service interruptions (outages) per month.
-2.1.	Identify the cause of each outage whether it is at the headend or on the line in the field.
-2.2.	Most of outages happen in the field in over-congested fiber enclosures where fibers can get tangled thus create micro bend and break. If fibers in an enclosure cannot be reorganized or an enclosure itself cannot be upgraded, consider putting an enclosure under strict limited access (embargo) to fiber technicians during building new fiber connections or maintenance.
-2.3.	Make sure that all maintenance works that entail service interruption are conducted during ‘maintenance window’ only which is 2am-6am and with 2 days notice to all affected customers.
+    1.	Identify the cause of each outage whether it is at the headend or on the line in the field.
+    2.	Most of outages happen in the field in over-congested fiber enclosures where fibers can get tangled thus create micro bend and break. If fibers in an enclosure cannot be reorganized or an enclosure itself cannot be upgraded, consider putting an enclosure under strict limited access (embargo) to fiber technicians during building new fiber connections or maintenance.
+    3.	Make sure that all maintenance works that entail service interruption are conducted during ‘maintenance window’ only which is 2am-6am and with 2 days notice to all affected customers.
 3.	Consider building a backup fiber line for all back-bone routes where possible in order to avoid service interruptions when it is an outage on a primary rout.
 4.	When all previous steps are implemented properly it should solve most of the issues with speed, service interruptions and down time. However, still consider having 24/7 on call crew on rotation basis to minimize down time when an outage happens.
 
@@ -40,8 +40,8 @@ Additional services are Online Security, Online Backup, Device Protection, Tech 
 ### Recommendations for the Sales/Marketing Departments:
 1.	While signing a contract with a new customer emphasize benefits of additional services how helpful and useful they can be. Especially explain clearly benefits of Tech Support for senior customers who are not usually familiar with indoor telecommunication and network equipment like a modem and a Wi-Fi router. Sometimes guiding them how to reboot those devices can solve the problem.
 2.	Consider revising price-formation for the plans with no additional services. Two opposite approaches can be implemented:
-2.1.	If possible consider making monthly charges lower so they are not in high charges group anymore and thus look more reasonable for customers.
-2.2.	Combine all additional services in one package and calculate prices for the plans with this package. Make monthly charges for the plans with no additional services lower but in the way that plans with additional services look beneficial and worth paying some extra money. Thus, gently forcing new customers to make choice towards plans with additional services.
+    1.	If possible consider making monthly charges lower so they are not in high charges group anymore and thus look more reasonable for customers.
+    2.	Combine all additional services in one package and calculate prices for the plans with this package. Make monthly charges for the plans with no additional services lower but in the way that plans with additional services look beneficial and worth paying some extra money. Thus, gently forcing new customers to make choice towards plans with additional services.
 3.	New customers who still choose plans with no additional services should be contacted by the company’s representative within first 3 months and receive the offer with the additional services package and clear explanations about its advantage. 
 4.	Consider contacting current customers with no additional services and offer them to add those services to their plans providing explicit explanations about acquired benefits.
 
