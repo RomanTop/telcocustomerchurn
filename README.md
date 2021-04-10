@@ -75,8 +75,6 @@ The charts showing churned vs no churned customers depending on type of contract
 
 ![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Contract_churn.png)
 
-![](https://github.com/RomanTop/telcocustomerchurn/blob/main/Pictures/Contractpng_Page1.png)
-
 We see that most of churned customers 23.5% (26.6% overall churn rate) have a month-to month type of contract. Moreover, more than a half (55%) of all customers have this type of contract. This is another especially important factor for the company to work with. It looks like one-year and two-year types of contracts keep customers from leaving whereas a month-to-month contract provides a convenient opportunity for almost all not satisfied customers to not prolong their contract for the next month and leave. However, it is highly unlikely that month-to-month type of contract by itself, the way it is designed, causes churn of customers. More important is to figure out what are the reasons behind it that force customers to use this easy opportunity to leave.
 
 ### Billing and Payment method
