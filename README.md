@@ -158,7 +158,6 @@ Since ROC AUC score of the models differs at fourth digit after decimal point it
 Using pickle module, I saved model to a file to store it for future usage when new unlabeled data come.
 
 # Retention Program. Recommendations. 
-## Introduction
 The goal of the project is not only to build a predictive model to identify customers who are likely to churn but also develop a retention program for them.
 
 Although the dataset contains 20 variables describing each customer there is still some information that is not given but can be helpful to develop specific focused retain program. For example, we do not know how many plans exist and what are monthly charges for each of them, what technologies are used for fiber optic Internet service – PON, FTTH, FTTN, etc. Depending on these factors approaches to retain customers may vary. However, it is still possible to provide fairly detailed recommendations to some of company’s departments based on which focused retention programs can be developed.
